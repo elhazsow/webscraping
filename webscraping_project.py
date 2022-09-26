@@ -9,13 +9,13 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-# ###########################################web scraping ######################################################
+# ########################################### web scraping ######################################################
 
-link = "https://nexity.fr//annonces-immobilieres//location//logement//tout//strasbourg+67"  # base du lien
+link = "https://???????????"  # base du lien
 page = 1
 max_pages = 4  # nombre maximum de pages sur le site
 df = pd.DataFrame(columns=['offres', 'Lieux', 'Prix (£ ** CC/ mois)', 'lien pages'])
-site = 'https://nexity.fr'  # lien principal
+site = 'https://******.'  # lien principal
 i = 0
 
 while page <= max_pages:
